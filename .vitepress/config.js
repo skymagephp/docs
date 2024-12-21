@@ -4,7 +4,7 @@ export default {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' }
+      { text: 'Guide', link: '/guide/introduction' } // Update link to point to introduction
     ],
     sidebar: {
       '/guide/': [
