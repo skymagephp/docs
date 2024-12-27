@@ -1,5 +1,25 @@
-# Welcome to My Project
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
-This is the documentation for my project.
+hero:
+  name: "Skymage docs"
+  text: "Skymage documentation"
+  tagline: My great project tagline
+  actions:
+    - theme: brand
+      text: Markdown Examples
+      link: /markdown-examples
+    - theme: alt
+      text: API Examples
+      link: /api-examples
 
-- [Guide](./guide/introduction.md) // Update link to point to introduction
+features:
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+---
+
