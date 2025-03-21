@@ -14,3 +14,9 @@ body {
 code {
   font-family: 'Geist Mono', monospace;
 }
+
+.vp-doc {
+    img {
+        border: 1px solid #eaecef;
+    }
+}
