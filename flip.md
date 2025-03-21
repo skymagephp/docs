@@ -70,13 +70,6 @@ https://demo.skymage.net/v1/daudau.cc/images/crab.png?flip=h&blur=3
 ```
 ![Flip with blur](https://demo.skymage.net/v1/daudau.cc/images/crab.png?flip=h&blur=3)
 
-## Technical Notes
-
-When applying flip transformations, Skymage:
-- First makes a memory copy of the image to ensure sequential processing
-- Applies the requested flip operation(s)
-- Removes any existing EXIF orientation metadata to prevent double-orientation issues
-
 ## Common Use Cases
 
 - **Mirror images** for creative or artistic effect

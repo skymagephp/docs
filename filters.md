@@ -109,15 +109,6 @@ https://demo.skymage.net/v1/daudau.cc/images/crab.png?bri=20&con=30
 ```
 ![Combined brightness and contrast](https://demo.skymage.net/v1/daudau.cc/images/crab.png?bri=20&con=30)
 
-## Technical Implementation
-
-All filters preserve transparency (alpha channel) if present in the original image. The implementation:
-
-1. Detects if the image has an alpha channel
-2. If an alpha channel exists, it's extracted before applying the filter
-3. The filter is applied to the color channels only
-4. The alpha channel is rejoined to preserve transparency
-
 ## Common Use Cases
 
 ### Grayscale

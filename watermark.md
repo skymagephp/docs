@@ -88,15 +88,6 @@ The image will be served with "example.com" automatically watermarked in the cor
 
 When domain watermarking is enabled in the Dashboard, any manual `watermark` parameter in the URL will take precedence and replace the automatic domain watermark.
 
-## Technical Details
-
-- The watermark text is rendered as a PNG image with transparency
-- Text size is proportional to the image dimensions, with minimum and maximum size constraints
-- Minimum text height: 10 pixels
-- Maximum text height: 100 pixels
-- Watermark images are cached for better performance
-- Special characters and spaces are supported but should be URL-encoded
-
 ## Common Use Cases
 
 - **Copyright Protection**: Add copyright notices to prevent unauthorized use
