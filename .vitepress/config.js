@@ -46,7 +46,6 @@ export default {
     // Social links with icons
     socialLinks: [
       { icon: 'x', link: 'https://x.com/bangnokia' },
-      { icon: 'github', link: 'https://github.com/daudau/skymagephp' }
     ],
 
     // Footer message
