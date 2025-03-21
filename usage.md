@@ -1,6 +1,6 @@
 # Usage
 
-## Image Transformation Made Easy
+Image Transformation Made Easy
 
 Using the Skymage API to transform images is straightforward. Simply append query parameters to your image URL using our standard syntax.
 
