@@ -1,5 +1,5 @@
 export default {
-  title: 'SkymagePHP',
+  title: 'Skymage',
   description: 'Documentation for SkymagePHP',
   base: '/docs/',
   // Enable full text search
