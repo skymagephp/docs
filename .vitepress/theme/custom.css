@@ -58,6 +58,7 @@ body {
   font-family: 'Outfit', sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  font-size: 16px;
 }
 
 code {
@@ -75,13 +76,11 @@ code {
   img {
     /* Removed border-radius to preserve original image look and feel */
     border: 1px solid rgba(0, 0, 0, 0.05);
-    box-shadow: var(--vp-shadow-1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
   img:hover {
     transform: translateY(-2px);
-    box-shadow: var(--vp-shadow-2);
   }
 
   /* Typography improvements */
@@ -91,16 +90,39 @@ code {
     margin-bottom: 1.5rem;
   }
 
+  /* Add # before h2 headings */
   h2 {
     font-weight: 600;
     letter-spacing: -0.01em;
-    border-top: 1px solid rgba(60, 60, 60, 0.12);
     padding-top: 1.5rem;
     margin-top: 2rem;
+    color: var(--vp-c-brand-dark);
+    position: relative;
   }
 
+  h2::before {
+    content: "# ";
+    color: var(--vp-c-brand-light);
+    opacity: 0.8;
+    position: absolute;
+    left: -1.5rem;
+    top: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  /* Add # before h3 headings */
   h3 {
     font-weight: 600;
+    position: relative;
+  }
+
+  h3::before {
+    content: "# ";
+    color: var(--vp-c-brand-light);
+    opacity: 0.7;
+    position: absolute;
+    left: -1.3rem;
+    font-size: 1.2rem;
   }
 
   p {
@@ -125,10 +147,6 @@ code {
 
   td {
     padding: 0.75rem 1rem;
-  }
-
-  tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.02);
   }
 
   /* Code blocks */

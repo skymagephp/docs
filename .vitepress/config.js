@@ -76,11 +76,7 @@ export default {
 
   // Add VitePress theme color customization
   head: [
-    ['link', {
-      rel: 'stylesheet',
-      href: 'https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&display=swap'
-    }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/docs/favicon.png' }],
+    ['link', { rel: 'icon', type: 'image/svg', href: 'https://skymage.daudau.cc/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#3498db' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
