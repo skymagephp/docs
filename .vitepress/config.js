@@ -15,6 +15,8 @@ export default {
         text: 'Image transformations',
         items: [
           { text: 'Resize', link: '/resizing.md' },
+          { text: 'Fit', link: '/fit.md' },
+          { text: 'Crop', link: '/crop.md' },
         ]
       }
     ]
