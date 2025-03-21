@@ -1,20 +1,18 @@
 export default {
-  title: 'My Project',
-  description: 'Documentation for my project',
+  title: 'Skymage docs',
+  description: 'Documentation for Skymage image transformation service',
   base: '/docs/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          text: 'Transformation',
-          children: [
-            { text: 'Width and height', link: '/width-and-height' },
-          ]
-        }
-      ]
-    }
+    sidebar: [
+      {
+        text: 'Transformation',
+        children: [
+          { text: 'Width and height', link: '/width-and-height' },
+        ]
+      }
+    ]
   }
 }
