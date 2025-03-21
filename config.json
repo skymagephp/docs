@@ -1,0 +1,19 @@
+{
+  "sidebar": [
+    {
+      "title": "Getting Started",
+      "items": [
+        "usage"
+      ]
+    },
+    {
+      "title": "Image Transformations",
+      "items": [
+        "resizing",
+        "fit",
+        "crop",
+        "blur-and-sharpen"
+      ]
+    }
+  ]
+}

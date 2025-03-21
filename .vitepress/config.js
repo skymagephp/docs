@@ -20,6 +20,7 @@ export default {
           { text: 'Resize', link: '/resizing.md' },
           { text: 'Fit', link: '/fit.md' },
           { text: 'Crop', link: '/crop.md' },
+          { text: 'Blur & Sharpen', link: '/blur-and-sharpen.md' },
         ]
       }
     ]
