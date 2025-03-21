@@ -3,6 +3,7 @@ export default {
   description: 'Documentation for Skymage image transformation service',
   base: '/docs/',
   themeConfig: {
+    outline: [2,3],
     nav: [
       { text: 'Home', link: 'https://skymage.daudau.cc' },
     ],

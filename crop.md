@@ -8,88 +8,92 @@ The `p` parameter determines which part of the image should be kept when croppin
 ```
 https://demo.skymage.net/v1/daudau.cc/images/crab.png
 ```
-![Original image](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=400)
+![Original image](https://demo.skymage.net/v1/daudau.cc/images/crab.png)
 
-## center
+## Standard Positions
+
+### center
 
 Default positioning. Centers the image during cropping.
 
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=center
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=center
 ```
-![Center position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=center)
+![Center position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=center)
 
-## top
+### top
 
 Aligns to the top edge of the image during cropping.
 
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=top
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=top
 ```
-![Top position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=top)
+![Top position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=top)
 
-## bottom
+### bottom
 
 Aligns to the bottom edge of the image during cropping.
 
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=bottom
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=bottom
 ```
-![Bottom position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=bottom)
+![Bottom position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=bottom)
 
-## left
+### left
 
 Aligns to the left edge of the image during cropping.
 
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=left
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=left
 ```
-![Left position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=left)
+![Left position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=left)
 
-## right
+### right
 
 Aligns to the right edge of the image during cropping.
 
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=right
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=right
 ```
-![Right position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=right)
+![Right position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=right)
 
-## top-left
+## Corner Positions
+
+### top-left
 
 Aligns to the top-left corner of the image during cropping.
 
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=top-left
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=top-left
 ```
-![Top-left position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=top-left)
+![Top-left position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=top-left)
 
-## top-right
+### top-right
 
 Aligns to the top-right corner of the image during cropping.
 
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=top-right
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=top-right
 ```
-![Top-right position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=top-right)
+![Top-right position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=top-right)
 
-## bottom-left
+### bottom-left
 
 Aligns to the bottom-left corner of the image during cropping.
 
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=bottom-left
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=bottom-left
 ```
-![Bottom-left position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=bottom-left)
+![Bottom-left position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=bottom-left)
 
-## bottom-right
+### bottom-right
 
 Aligns to the bottom-right corner of the image during cropping.
 
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=bottom-right
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=bottom-right
 ```
-![Bottom-right position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=bottom-right)
+![Bottom-right position example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=bottom-right)
 
 ## Custom Crop Coordinates
 
@@ -139,21 +143,21 @@ Where `x` and `y` are percentage values (0-100) representing the focal point coo
 
 Center focal point (50% from left, 50% from top):
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=crop-50-50
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=crop-50-50
 ```
-![Center focal point](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=crop-50-50)
+![Center focal point](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=crop-50-50)
 
 Top-right focal point (75% from left, 25% from top):
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=crop-75-25
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=crop-75-25
 ```
-![Top-right focal point](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=crop-75-25)
+![Top-right focal point](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=crop-75-25)
 
 Bottom-left focal point (25% from left, 75% from top):
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=crop-25-75
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=crop-25-75
 ```
-![Bottom-left focal point](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=crop-25-75)
+![Bottom-left focal point](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=crop-25-75)
 
 ### Smart Cropping
 
@@ -161,15 +165,15 @@ Skymage also supports smart cropping that automatically determines the most inte
 
 **Entropy-based smart cropping:**
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=entropy
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=entropy
 ```
-![Entropy-based cropping](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=entropy)
+![Entropy-based cropping](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=entropy)
 
 **Attention-based smart cropping:**
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=attention
+https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=attention
 ```
-![Attention-based cropping](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop&p=attention)
+![Attention-based cropping](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=500&h=200&fit=crop&p=attention)
 
 ## Practical Examples
 
