@@ -3,8 +3,8 @@
     "vitepress": "^1.5.0"
   },
   "scripts": {
-    "dev": "pnpm docs:dev",
-    "build": "pnpm docs:build",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:serve": "vitepress serve",

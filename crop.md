@@ -173,7 +173,7 @@ https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=ent
 ```
 https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=attention
 ```
-![Attention-based cropping](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=500&h=200&fit=crop&p=attention)
+![Attention-based cropping](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=700&h=500&fit=crop&p=attention)
 
 ## Practical Examples
 
