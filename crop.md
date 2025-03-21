@@ -2,8 +2,6 @@
 
 When using `fit=crop` or `fit=cover` for your images, you can precisely control which part of the image is preserved during the cropping process using the `p` parameter.
 
-## Introduction to Position Parameter
-
 The `p` parameter determines which part of the image should be kept when cropping is applied. This is especially useful when you want to ensure that the most important elements of your image remain visible.
 
 **Original Image:**

@@ -4,7 +4,7 @@ export default {
   base: '/docs/',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Home', link: 'https://skymage.daudau.cc' },
     ],
     sidebar: [
       {
