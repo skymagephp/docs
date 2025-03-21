@@ -53,11 +53,6 @@ https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=500&h=300&fit=crop&water
 ```
 ![Watermark with crop](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=500&h=300&fit=crop&watermark=Cropped)
 
-**Watermark with Effects:**
-```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?blur=3&watermark=Blurred
-```
-![Watermark with blur](https://demo.skymage.net/v1/daudau.cc/images/crab.png?blur=3&watermark=Blurred)
 
 ## Automatic Domain Watermarking
 
