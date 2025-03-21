@@ -56,7 +56,7 @@ https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop
 ```
 ![Crop example](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300&h=200&fit=crop)
 
-When using `fit=crop`, you can control which part of the image is preserved with the `pos` parameter.
+When using `fit=crop`, you can control which part of the image is preserved with the `p` parameter.
 
 [📏 Learn more about Image Cropping and Positioning](./crop.md)
 
