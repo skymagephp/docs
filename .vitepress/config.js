@@ -1,6 +1,6 @@
 export default {
-  title: 'Skymage docs',
-  description: 'Documentation for Skymage image transformation service',
+  title: 'SkymagePHP',
+  description: 'Documentation for SkymagePHP',
   base: '/docs/',
   themeConfig: {
     outline: [2,3],
