@@ -8,9 +8,13 @@ export default {
     ],
     sidebar: [
       {
-        text: 'Transformation',
-        children: [
-          { text: 'Width and height', link: '/width-and-height' },
+        text: 'Usage',
+        link: '/usage.md',
+      },
+      {
+        text: 'Image transformations',
+        items: [
+          { text: 'Resize', link: '/resizing.md' },
         ]
       }
     ]
