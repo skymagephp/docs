@@ -3,20 +3,267 @@
 
 /* Apply Geist font to the entire site */
 :root {
+  /* Font family customization */
   --vp-font-family-base: 'Geist', sans-serif;
   --vp-font-family-mono: 'Geist Mono', monospace;
+
+  /* Sky theme color customization */
+  --vp-c-brand: #3498db;
+  --vp-c-brand-light: #5dade2;
+  --vp-c-brand-lighter: #85c1e9;
+  --vp-c-brand-dark: #2980b9;
+  --vp-c-brand-darker: #1e6091;
+
+  /* Button customization */
+  --vp-button-brand-bg: var(--vp-c-brand);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-dark);
+  --vp-button-brand-active-bg: var(--vp-c-brand-darker);
+
+  /* Link customization */
+  --vp-c-brand-1: var(--vp-c-brand);
+  --vp-c-brand-2: var(--vp-c-brand-light);
+  --vp-c-brand-3: var(--vp-c-brand-dark);
+
+  /* Home page accent color */
+  --vp-home-hero-name-color: var(--vp-c-brand);
+
+  /* Enhance the overall typography */
+  --vp-font-size-base: 16px;
+  --vp-font-size-sm: 0.875rem;
+  --vp-font-size-lg: 1.125rem;
+  --vp-font-size-xl: 1.375rem;
+
+  /* Improved spacing */
+  --vp-layout-max-width: 1440px;
+
+  /* Border radius for a modern look */
+  --vp-border-radius: 8px;
+
+  /* Soft shadows for depth */
+  --vp-shadow-1: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --vp-shadow-2: 0 3px 12px rgba(0, 0, 0, 0.07), 0 1px 4px rgba(0, 0, 0, 0.07);
+  --vp-shadow-3: 0 12px 32px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.08);
+
+  /* Smoother transitions */
+  --vp-c-default-1: var(--vp-c-gray-1);
+  --vp-c-default-2: var(--vp-c-gray-2);
+  --vp-c-default-3: var(--vp-c-gray-3);
+  --vp-c-default-soft: var(--vp-c-gray-soft);
 }
 
 body {
   font-family: 'Geist', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 code {
   font-family: 'Geist Mono', monospace;
 }
 
+/* Logo Styling */
+.VPNavBarTitle .logo {
+  height: 30px;
+  margin-right: 8px;
+}
+
+/* Images */
 .vp-doc {
-    img {
-        border: 1px solid #eaecef;
+  img {
+    /* Removed border-radius to preserve original image look and feel */
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: var(--vp-shadow-1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  img:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--vp-shadow-2);
+  }
+
+  /* Typography improvements */
+  h1 {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    border-top: 1px solid rgba(60, 60, 60, 0.12);
+    padding-top: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  h3 {
+    font-weight: 600;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin: 1.5rem 0;
+    border-radius: var(--vp-border-radius);
+    overflow: hidden;
+  }
+
+  th {
+    font-weight: 600;
+    text-align: left;
+    padding: 0.75rem 1rem;
+  }
+
+  td {
+    padding: 0.75rem 1rem;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+
+  /* Code blocks */
+  div[class*='language-'] {
+    border-radius: var(--vp-border-radius);
+    box-shadow: var(--vp-shadow-1);
+    margin: 1.5rem 0;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 1.5rem;
+    line-height: 1.6;
+  }
+
+  li + li {
+    margin-top: 0.5rem;
+  }
+}
+
+/* Add a subtle sky gradient to the homepage hero section */
+.VPHero.has-image .container {
+  background: linear-gradient(160deg, rgba(52,152,219,0.05) 0%, rgba(93,173,226,0.1) 100%);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: var(--vp-shadow-1);
+}
+
+/* Make the hero image pop */
+.VPHero.has-image .image {
+  transform: translateY(-5%);
+  transition: transform 0.5s ease-out;
+}
+
+.VPHero.has-image:hover .image {
+  transform: translateY(-7%);
+}
+
+/* Subtle hover effects for links */
+.vp-doc a:not(.header-anchor) {
+  text-decoration: none;
+  border-bottom: 1px solid var(--vp-c-brand);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.vp-doc a:not(.header-anchor):hover {
+  border-bottom-width: 2px;
+}
+
+/* Nav links */
+.VPNavBarMenuLink {
+  transition: color 0.2s ease;
+}
+
+.VPNavBarMenuLink:hover {
+  color: var(--vp-c-brand);
+}
+
+/* Button styling */
+.VPButton {
+  border-radius: 6px;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.VPButton:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--vp-shadow-2);
+}
+
+/* Customize scrollbar with sky color */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--vp-c-brand-lighter);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--vp-c-brand);
+}
+
+/* Sidebar improvements */
+.VPSidebar {
+  border-right: 1px solid rgba(60, 60, 60, 0.1);
+  padding-top: 1.5rem;
+}
+
+.VPSidebarItem .text {
+  transition: color 0.2s ease;
+}
+
+.VPSidebarItem.is-active .text,
+.VPSidebarItem:hover .text {
+  color: var(--vp-c-brand);
+}
+.VPDocOutlineItem {
+    li {
+        padding: 2px 0;
     }
+    .outline-link {
+        overflow: visible;
+        line-height: 25px;
+
+        &.active {
+            color: var(--vp-c-brand);
+        }
+    }
+}
+.VPDocAsideOutline {
+    .content {
+        border-left: 0;
+        padding-left: 0;
+    }
+    .outline-marker {
+        display: none;
+    }
+}
+
+
+/* Mobile responsive improvements */
+@media (max-width: 768px) {
+  .vp-doc h1 {
+    font-size: 2rem;
+  }
+
+  .vp-doc h2 {
+    font-size: 1.5rem;
+  }
+
+  .VPHero.has-image .container {
+    padding: 1rem;
+  }
 }
