@@ -1,4 +1,4 @@
-# Image Cropping and Positioning
+# Crop
 
 When using `fit=crop` or `fit=cover` for your images, you can precisely control which part of the image is preserved during the cropping process using the `pos` parameter.
 

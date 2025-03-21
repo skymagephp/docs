@@ -8,11 +8,13 @@ export default {
     ],
     sidebar: [
       {
-        text: 'Usage',
-        link: '/usage.md',
+        text: 'Introduction',
+        items: [
+          { text: 'Usage', link: '/usage.md' }
+        ]
       },
       {
-        text: 'Image transformations',
+        text: 'Transformations',
         items: [
           { text: 'Resize', link: '/resizing.md' },
           { text: 'Fit', link: '/fit.md' },

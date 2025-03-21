@@ -1,4 +1,4 @@
-# Fit Parameter
+# Fit
 
 When resizing images with both width and height parameters, the `fit` parameter becomes essential for controlling how the image adapts to the new dimensions.
 
