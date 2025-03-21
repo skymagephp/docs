@@ -1,4 +1,4 @@
-# Image Enhancement Effects
+# Blur and Sharpen effects
 
 Skymage offers two powerful image enhancement effects: Blur and Sharpen. These effects can be applied through simple parameters to create various visual styles and improve image quality.
 
