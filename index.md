@@ -1,7 +1,5 @@
 # Getting Started
 
-Image Transformation Made Easy
-
 Using the Skymage API to transform images is straightforward. Simply append query parameters to your image URL using our standard syntax.
 
 When you create a Skymage account, you'll receive a unique handle that identifies your account and is used to access the transformation service.
