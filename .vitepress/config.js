@@ -21,6 +21,7 @@ export default {
           { text: 'Fit', link: '/fit.md' },
           { text: 'Crop', link: '/crop.md' },
           { text: 'Blur & Sharpen', link: '/blur-and-sharpen.md' },
+          { text: 'Flip', link: '/flip.md' },
         ]
       }
     ]
