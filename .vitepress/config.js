@@ -22,6 +22,7 @@ export default {
           { text: 'Crop', link: '/crop.md' },
           { text: 'Blur & Sharpen', link: '/blur-and-sharpen.md' },
           { text: 'Flip', link: '/flip.md' },
+          { text: 'Filters', link: '/filters.md' },
           { text: 'Watermark', link: '/watermark.md' },
         ]
       }
