@@ -1,13 +1,13 @@
 # Examples
 
-This page demonstrates various examples of using SkymagePHP for image transformations.
+This page demonstrates various examples of using Skymage for image transformations.
 
 ## Feature Highlights
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
   <FeatureCard
     title="Lightning Fast"
-    description="SkymagePHP is optimized for speed, processing images in milliseconds."
+    description="Skymage is optimized for speed, processing images in milliseconds."
     icon="⚡"
     link="/index.md" />
 
@@ -57,11 +57,11 @@ See the difference our image transformations can make:
 
 <CodeGroup>
 ```php
-// Install SkymagePHP
-composer require daudau/skymagephp
+// Install Skymage
+composer require daudau/skymage
 
 // Initialize the client
-$skymage = new \Daudau\SkymagePHP\Client('your-api-key');
+$skymage = new \Daudau\Skymage\Client('your-api-key');
 
 // Generate a transformed image URL
 $url = $skymage->image('your-image.jpg')
@@ -72,18 +72,18 @@ $url = $skymage->image('your-image.jpg')
 ```
 
 ```javascript
-// Install SkymagePHP JS client
-npm install skymagephp
+// Install Skymage JS client
+npm install skymage
 
 // Initialize the client
-const skymage = new SkymagePHP('your-api-key');
+const skymage = new Skymage('your-api-key');
 
 // Generate a transformed image URL
 const url = skymage.image('your-image.jpg')
-    .resize(800, 600)
-    .filter('sepia')
-    .blur(5)
-    .getUrl();
+    ->resize(800, 600)
+    ->filter('sepia')
+    ->blur(5)
+    ->getUrl();
 ```
 </CodeGroup>
 

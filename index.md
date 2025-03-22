@@ -1,42 +1,103 @@
-# Getting Started
+# Skymage Documentation
 
-Using the Skymage API to transform images is straightforward. Simply append query parameters to your image URL using our standard syntax.
+Skymage is a powerful image transformation service that allows you to resize, crop, optimize, and apply effects to your images on-the-fly using simple URL parameters.
 
-When you create a Skymage account, you'll receive a unique handle that identifies your account and is used to access the transformation service.
+## Getting Started
 
-## Basic Syntax
+Skymage provides a straightforward way to transform images through URL parameters. This approach eliminates the need for server-side image processing code, making your applications lighter and more efficient.
 
-```
-https://{your-handle}.skymage.net/v1/{your-image-url-without-protocol}?{transformation-parameters}
-```
+### Basic Concept
 
-## Quick Example
-
-Let's say you have:
-
-- **Account handle**: `demo`
-- **API Version**: `v1` (current version)
-- **Original image URL**: `https://daudau.cc/images/crab.png`
-
-To resize this image to a width of 300 pixels:
+The basic pattern for a Skymage URL is:
 
 ```
-https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300
+https://[your-domain]/v1/[tenant]/images/[image-path]?[transformations]
 ```
 
-## Result
+For example:
 
-Original image → Transformed image (w=300)
+```
+https://demo.skymage.net/v1/daudau.cc/images/sample.jpg?w=300&h=200&fit=cover
+```
 
-![Example of a transformed image](https://demo.skymage.net/v1/daudau.cc/images/crab.png?w=300)
+This URL will fetch the image at `sample.jpg`, resize it to 300×200 pixels using the "cover" fit mode.
 
-## Common Transformations
+### Key Features
 
-| Parameter | Description | Example |
-|-----------|-------------|---------|
-| `w` | Width in pixels | `?w=300` |
-| `h` | Height in pixels | `?h=200` |
-| `q` | Quality (0-100) | `?q=80` |
-| `f` | Format (webp, jpeg, png) | `?f=webp` |
+- **On-the-fly transformations**: No pre-processing needed
+- **Simple URL API**: Control image transformations with URL parameters
+- **Highly optimized**: Delivers optimized images for faster loading times
+- **Multiple formats**: Support for JPEG, PNG, WebP, AVIF and more
+- **CDN integration**: Works seamlessly with CDNs for global distribution
+- **Secure**: Protect your images with signed URLs
 
-Multiple parameters can be combined with the ampersand symbol: `?w=300&h=200&f=webp`
+## Core Transformation Options
+
+Skymage offers various transformation options to modify your images:
+
+### Dimensions and Sizing
+
+- **Width & Height**: Specify dimensions with `w` and `h` parameters
+  ```
+  https://demo.skymage.net/v1/daudau.cc/images/sample.jpg?w=400&h=300
+  ```
+
+- **Fit Modes**: Control how images fit within dimensions with `fit` parameter
+  ```
+  https://demo.skymage.net/v1/daudau.cc/images/sample.jpg?w=400&h=300&fit=contain
+  ```
+
+- **Cropping**: Focus on specific areas with `crop` and `p` parameters
+  ```
+  https://demo.skymage.net/v1/daudau.cc/images/sample.jpg?w=400&h=300&fit=crop&p=face
+  ```
+
+### Visual Effects
+
+- **Filters**: Apply predefined filters with `filt` parameter
+  ```
+  https://demo.skymage.net/v1/daudau.cc/images/sample.jpg?filt=grayscale
+  ```
+
+- **Blur**: Add blur effect with `blur` parameter
+  ```
+  https://demo.skymage.net/v1/daudau.cc/images/sample.jpg?blur=10
+  ```
+
+- **Sharpen**: Enhance image details with `sharpen` parameter
+  ```
+  https://demo.skymage.net/v1/daudau.cc/images/sample.jpg?sharpen=10
+  ```
+
+### Quality
+
+- **Quality**: Control compression with `q` parameter
+  ```
+  https://demo.skymage.net/v1/daudau.cc/images/sample.jpg?q=80
+  ```
+
+## Integration Examples
+
+Skymage can be integrated into various web platforms:
+
+### HTML Integration
+
+```html
+<img src="https://demo.skymage.net/v1/daudau.cc/images/sample.jpg?w=400" alt="Sample Image">
+```
+
+### CSS Background
+
+```css
+.hero {
+  background-image: url('https://demo.skymage.net/v1/daudau.cc/images/sample.jpg?w=1200&h=600&fit=cover');
+}
+```
+
+### JavaScript Dynamic Sizing
+
+```javascript
+const width = window.innerWidth > 800 ? 1200 : 600;
+const imageUrl = `https://demo.skymage.net/v1/daudau.cc/images/sample.jpg?w=${width}`;
+document.getElementById('hero-img').src = imageUrl;
+```

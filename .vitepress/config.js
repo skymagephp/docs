@@ -1,6 +1,6 @@
 export default {
   title: 'Skymage',
-  description: 'Documentation for SkymagePHP, the image transfomration service on the fly',
+  description: 'Documentation for Skymage, the image transformation service on the fly',
   base: '/docs/',
   // Enable full text search
   search: {
@@ -49,7 +49,7 @@ export default {
     // Footer message
     footer: {
       message: 'Built with ♥ using VitePress',
-      copyright: 'Copyright © 2023 SkymagePHP'
+      copyright: 'Copyright © 2023 Skymage'
     },
 
     // Add "Edit this page" links to GitHub
