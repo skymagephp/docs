@@ -1,6 +1,6 @@
 export default {
   title: 'Skymage',
-  description: 'Documentation for SkymagePHP',
+  description: 'Documentation for SkymagePHP, the image transfomration service on the fly',
   base: '/docs/',
   // Enable full text search
   search: {
