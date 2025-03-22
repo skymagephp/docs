@@ -13,7 +13,7 @@ export default {
   // Add last updated info
   lastUpdated: true,
   sitemap: {
-    hostname: 'https://skymage.daudau.cc'
+    hostname: 'https://skymage.daudau.cc/docs/'
   },
   themeConfig: {
     // Add logo to the site header with a link to the main site
