@@ -77,7 +77,3 @@ https://demo.skymage.net/v1/daudau.cc/images/crab.png?flip=h&blur=3
 - **Create reflection effects** for product showcases
 - **Standardize image orientation** across a collection
 - **Generate symmetrical patterns** from asymmetrical source images
-
-## Implementation Details
-
-The flip transformation preserves all image qualities including transparency, color profile, and metadata (except for the orientation tag which is removed to avoid conflicts).
