@@ -20,7 +20,10 @@ export default {
     logo: 'https://skymage.daudau.cc/logo.svg',
 
     // Link the logo to the main site
-    logoLink: 'https://skymage.daudau.cc',
+    logoLink: {
+      link: '/',
+      target: '_self'
+    },
 
     logoLinkTarget: '_self',
 
