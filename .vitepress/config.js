@@ -1,7 +1,7 @@
 export default {
   title: 'Skymage',
   description: 'Documentation for SkymagePHP, the image transfomration service on the fly',
-  base: '/docs/',
+  base: '/',
   // Enable full text search
   search: {
     provider: 'local',
@@ -24,19 +24,19 @@ export default {
       {
         text: 'Introduction',
         items: [
-          { text: 'Getting Started', link: '/index.md' },
+          { text: 'Getting Started', link: '/docs/index.md' },
         ]
       },
       {
         text: 'Transformations',
         items: [
-          { text: 'Resize', link: '/resizing.md' },
-          { text: 'Fit', link: '/fit.md' },
-          { text: 'Crop', link: '/crop.md' },
-          { text: 'Blur & Sharpen', link: '/blur-and-sharpen.md' },
-          { text: 'Flip', link: '/flip.md' },
-          { text: 'Filters', link: '/filters.md' },
-          { text: 'Watermark', link: '/watermark.md' },
+          { text: 'Resize', link: '/docs/resizing.md' },
+          { text: 'Fit', link: '/docs/fit.md' },
+          { text: 'Crop', link: '/docs/crop.md' },
+          { text: 'Blur & Sharpen', link: '/docs/blur-and-sharpen.md' },
+          { text: 'Flip', link: '/docs/flip.md' },
+          { text: 'Filters', link: '/docs/filters.md' },
+          { text: 'Watermark', link: '/docs/watermark.md' },
         ]
       }
     ],
