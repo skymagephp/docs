@@ -13,8 +13,11 @@ export default {
   // Add last updated info
   lastUpdated: true,
   themeConfig: {
-    // Add logo to the site header
+    // Add logo to the site header with a link to the main site
     logo: 'https://skymage.daudau.cc/logo.svg',
+
+    // Link the logo to the main site
+    logoLink: 'https://skymage.daudau.cc',
 
     outline: [2,3],
     nav: [
