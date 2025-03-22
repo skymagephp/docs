@@ -14,6 +14,10 @@
   --vp-c-brand-dark: #2980b9;
   --vp-c-brand-darker: #1e6091;
 
+  /* Light mode colors */
+  --vp-c-background-light: #fff;
+  --vp-c-background-dark: #f8f8f8;
+
   /* Button customization */
   --vp-button-brand-bg: var(--vp-c-brand);
   --vp-button-brand-hover-bg: var(--vp-c-brand-dark);
@@ -50,7 +54,8 @@
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-sidebar-bg-color: transparent;
+  /* Fix sidebar background color - default is transparent in both modes */
+  --vp-sidebar-bg-color: var(--vp-c-background-light);
   --vp-c-divider: transparent;
 }
 
@@ -279,6 +284,13 @@ code {
 }
 .VPNavBar.has-sidebar .divider {
     display: none;
+}
+
+/* Dark mode color customizations */
+.dark {
+  /* Dark mode sidebar color customization */
+  --vp-sidebar-bg-color: rgba(20, 25, 30, 0.8);
+  --vp-c-bg-alt: var(--vp-sidebar-bg-color);
 }
 
 /* Mobile responsive improvements */
