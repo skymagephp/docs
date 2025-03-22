@@ -18,7 +18,7 @@ export default {
 
     outline: [2,3],
     nav: [
-      { text: 'Home', link: 'https://skymage.daudau.cc' },
+      { text: 'Home', link: 'https://skymage.daudau.cc', target: '_self' },
     ],
     sidebar: [
       {
@@ -29,8 +29,6 @@ export default {
       },
       {
         text: 'Transformations',
-        collapsible: true,
-        collapsed: false,
         items: [
           { text: 'Resize', link: '/resizing.md' },
           { text: 'Fit', link: '/fit.md' },
