@@ -19,6 +19,8 @@ export default {
     // Link the logo to the main site
     logoLink: 'https://skymage.daudau.cc',
 
+    logoLinkTarget: '_self',
+
     outline: [2,3],
     nav: [
       { text: 'Home', link: 'https://skymage.daudau.cc', target: '_self' },
