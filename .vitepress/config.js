@@ -15,6 +15,7 @@ export default {
   sitemap: {
     hostname: 'https://skymage.daudau.cc/docs/'
   },
+  mpa: true,
   themeConfig: {
     // Add logo to the site header with a link to the main site
     logo: 'https://skymage.daudau.cc/logo.svg',
