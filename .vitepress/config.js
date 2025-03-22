@@ -12,6 +12,9 @@ export default {
   },
   // Add last updated info
   lastUpdated: true,
+  sitemap: {
+    hostname: 'https://skymage.daudau.cc'
+  },
   themeConfig: {
     // Add logo to the site header with a link to the main site
     logo: 'https://skymage.daudau.cc/logo.svg',
