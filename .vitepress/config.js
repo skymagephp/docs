@@ -24,7 +24,7 @@ export default {
       {
         text: 'Introduction',
         items: [
-          { text: 'Getting Started', link: '/docs/index.md' },
+          { text: 'Getting Started', link: '/index.md' },
         ]
       },
       {
