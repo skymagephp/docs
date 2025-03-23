@@ -52,20 +52,18 @@ export default {
       }
     ],
 
-    // Social links with icons
     socialLinks: [
       { icon: 'x', link: 'https://x.com/bangnokia' },
     ],
 
     // Footer message
     footer: {
-      message: 'Built with ♥ using VitePress',
-      copyright: 'Copyright © 2023 Skymage'
+      copyright: 'Copyright © 2025 Skymage'
     },
 
     // Add "Edit this page" links to GitHub
     editLink: {
-      pattern: 'https://github.com/daudau/skymagephp/edit/main/:path',
+      pattern: 'https://github.com/skymagephp/docs/edit/main/:path',
       text: 'Edit this page on GitHub'
     },
 
