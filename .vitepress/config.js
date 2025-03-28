@@ -77,7 +77,10 @@ export default {
     },
 
     // Add dark/light mode toggle
-    appearance: 'dark'
+    appearance: 'dark',
+    search: {
+      provider: 'local'
+    }
   },
 
   // Add VitePress theme color customization
