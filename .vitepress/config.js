@@ -30,6 +30,7 @@ export default {
     outline: [2,3],
     nav: [
       { text: 'Home', link: 'https://skymage.daudau.cc', target: '_self' },
+      { text: 'Blog', link: 'https://skymage.daudau.cc/blog', target: '_self' },
     ],
     sidebar: [
       {
