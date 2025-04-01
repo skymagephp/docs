@@ -1,3 +1,5 @@
+import { isExternal } from "util/types";
+
 export default {
   title: 'Skymage',
   description: 'Documentation for Skymage, the image transformation service on the fly',
@@ -29,8 +31,8 @@ export default {
 
     outline: [2,3],
     nav: [
-      { text: 'Home', link: 'https://skymage.daudau.cc', target: '_self' },
-      { text: 'Blog', link: 'https://skymage.daudau.cc/blog', target: '_self' },
+      { text: 'Home', link: 'https://skymage.daudau.cc', target: '_self', isExternal: false },
+      { text: 'Blog', link: 'https://skymage.daudau.cc/blog', target: '_self', isExternal: false },
     ],
     sidebar: [
       {
