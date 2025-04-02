@@ -31,7 +31,8 @@ export default {
     nav: [
       { text: 'Home', link: 'https://skymage.daudau.cc', target: '_self', noIcon: true },
       { text: 'Blog', link: 'https://skymage.daudau.cc/blog', target: '_self', noIcon: true },
-      { text: 'Pricing', link: 'https://skymage.daudau.cc/#pricing', target: '_self', noIcon: true },
+      { text: 'Pricing', link: 'https://skymage.daudau.cc/pricing', target: '_self', noIcon: true },
+      { text: 'Login', link: 'https://skymage.daudau.cc/login', target: '_self', noIcon: true },
     ],
     sidebar: [
       {
