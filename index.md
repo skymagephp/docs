@@ -11,7 +11,7 @@ Skymage provides a straightforward way to transform images through URL parameter
 The basic pattern for a Skymage URL is:
 
 ```
-https://[your-domain]/v1/[tenant]/images/[image-path]?[transformations]
+https://[your-handle].skymage.net/v1/[your-domain]/images/[image-path]?[transformations]
 ```
 
 For example:
