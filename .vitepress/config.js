@@ -13,11 +13,11 @@ export default {
   // Add last updated info
   lastUpdated: true,
   sitemap: {
-    hostname: 'https://skymage.daudau.cc/docs/'
+    hostname: 'https://skymage.dev/docs/'
   },
   themeConfig: {
     // Add logo to the site header with a link to the main site
-    logo: 'https://skymage.daudau.cc/logo.svg',
+    logo: 'https://skymage.dev/logo.svg',
 
     // Link the logo to the main site
     logoLink: {
@@ -29,10 +29,10 @@ export default {
 
     outline: [2,3],
     nav: [
-      { text: 'Home', link: 'https://skymage.daudau.cc', target: '_self', noIcon: true },
-      { text: 'Blog', link: 'https://skymage.daudau.cc/blog', target: '_self', noIcon: true },
-      { text: 'Pricing', link: 'https://skymage.daudau.cc/pricing', target: '_self', noIcon: true },
-      { text: 'Login', link: 'https://skymage.daudau.cc/login', target: '_self', noIcon: true },
+      { text: 'Home', link: 'https://skymage.dev', target: '_self', noIcon: true },
+      { text: 'Blog', link: 'https://skymage.dev/blog', target: '_self', noIcon: true },
+      { text: 'Pricing', link: 'https://skymage.dev/pricing', target: '_self', noIcon: true },
+      { text: 'Login', link: 'https://skymage.dev/login', target: '_self', noIcon: true },
     ],
     sidebar: [
       {
@@ -88,7 +88,7 @@ export default {
 
   // Add VitePress theme color customization
   head: [
-    ['link', { rel: 'icon', type: 'image/svg', href: 'https://skymage.daudau.cc/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg', href: 'https://skymage.dev/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#3498db' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
