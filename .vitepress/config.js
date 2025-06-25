@@ -39,6 +39,13 @@ export default {
         text: 'Introduction',
         items: [
           { text: 'Getting Started', link: '/index.md' },
+          { text: 'Usage Guide', link: '/usage.md' },
+        ]
+      },
+      {
+        text: 'Storage',
+        items: [
+          { text: 'External Storage', link: '/external-storage.md' },
         ]
       },
       {
@@ -51,6 +58,12 @@ export default {
           { text: 'Flip', link: '/flip.md' },
           { text: 'Filters', link: '/filters.md' },
           { text: 'Watermark', link: '/watermark.md' },
+        ]
+      },
+      {
+        text: 'Examples',
+        items: [
+          { text: 'Common Use Cases', link: '/examples.md' },
         ]
       }
     ],

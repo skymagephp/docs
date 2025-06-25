@@ -24,6 +24,31 @@ https://demo.skymage.net/v1/daudau.cc/images/sample.jpg?w=300&h=200&fit=cover
 
 This URL will fetch the image at `sample.jpg`, resize it to 300×200 pixels using the "cover" fit mode.
 
+## External Storage URLs
+
+Skymage also supports external storage providers. For external storage, the URL pattern is:
+
+```
+https://[your-domain]/v1/ex/[storage-handle]/[image-path]?[transformations]
+```
+
+Where:
+- `[storage-handle]` is your configured external storage identifier
+- `[image-path]` is the path to your image in the external storage
+
+For example, with Amazon S3:
+
+```
+https://demo.skymage.net/v1/ex/my-s3-bucket/photos/vacation.jpg?w=800&h=600&fit=cover
+```
+
+This URL will:
+1. Fetch `photos/vacation.jpg` from your configured S3 bucket
+2. Resize it to 800×600 pixels using cover fit
+3. Serve the transformed image through Skymage's CDN
+
+[Learn more about external storage →](/external-storage.md)
+
 ## URL Structure
 
 ### Base URL

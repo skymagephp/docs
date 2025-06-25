@@ -22,10 +22,27 @@ https://demo.skymage.net/v1/daudau.cc/images/sample.jpg?w=300&h=200&fit=cover
 
 This URL will fetch the image at `sample.jpg`, resize it to 300×200 pixels using the "cover" fit mode.
 
+### External Storage
+
+Skymage also supports external storage providers, allowing you to transform images directly from your own storage:
+
+```
+https://[your-handle].skymage.net/v1/ex/[storage-handle]/[image-path]?[transformations]
+```
+
+For example, with S3 storage:
+
+```
+https://demo.skymage.net/v1/ex/my-s3-bucket/photos/vacation.jpg?w=800&h=600&fit=cover
+```
+
+[Learn more about external storage →](/external-storage.md)
+
 ### Key Features
 
 - **On-the-fly transformations**: No pre-processing needed
 - **Simple URL API**: Control image transformations with URL parameters
+- **External storage support**: Connect your own S3, BunnyCDN, or other storage providers
 - **Highly optimized**: Delivers optimized images for faster loading times
 - **Multiple formats**: Support for JPEG, PNG, WebP, AVIF and more
 - **CDN integration**: Works seamlessly with CDNs for global distribution
