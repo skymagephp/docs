@@ -43,9 +43,11 @@ export default {
         ]
       },
       {
-        text: 'Storage',
+        text: 'External Storage',
         items: [
-          { text: 'External Storage', link: '/external-storage.md' },
+          { text: 'Overview', link: '/external-storage-overview.md' },
+          { text: 'Bunny Storage', link: '/bunny-storage.md' },
+          { text: 'Amazon S3 Storage', link: '/s3-storage.md' },
         ]
       },
       {

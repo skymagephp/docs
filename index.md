@@ -36,7 +36,7 @@ For example, with S3 storage:
 https://demo.skymage.net/v1/ex/my-s3-bucket/photos/vacation.jpg?w=800&h=600&fit=cover
 ```
 
-[Learn more about external storage →](/external-storage.md)
+[Learn more about external storage →](/external-storage-overview.md)
 
 ### Key Features
 

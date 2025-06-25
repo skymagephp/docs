@@ -47,7 +47,7 @@ This URL will:
 2. Resize it to 800×600 pixels using cover fit
 3. Serve the transformed image through Skymage's CDN
 
-[Learn more about external storage →](/external-storage.md)
+[Learn more about external storage →](/external-storage-overview.md)
 
 ## URL Structure
 
