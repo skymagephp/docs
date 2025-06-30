@@ -1,6 +1,6 @@
 # External Storage Overview
 
-Skymage supports external storage providers, allowing you to serve and transform images directly from your cloud storage without uploading them to Skymage's servers. This feature enables you to maintain control over your images while leveraging Skymage's powerful transformation capabilities.
+Skymage supports external storage providers, allowing you to serve and transform images directly from your cloud storage without create an public access. This feature enables you to maintain control over your images while leveraging Skymage's powerful transformation capabilities.
 
 ## Supported Storage Providers
 
